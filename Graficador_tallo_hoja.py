@@ -57,7 +57,7 @@ def resolverDiagrama(t,conj):
 
 
 def mostrarDiagrama(dataraw,tallos):
-    aux=[""*len(tallos)]
+    aux=["" for i in range(len(tallos))]
     for x in range(len(tallos)):
         for i in dataraw:
             if(i[0]==tallos[x]):
